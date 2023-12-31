@@ -1,0 +1,59 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.card {
+    border: 2px solid hsl(0, 0%, 7%);
+    height: 470px;
+    width: 338px;
+    border-radius: 30px;
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+}
+
+.article-img {
+    border-radius: 15px;
+}
+
+.status {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.heading {
+    font-size: 25px;
+}
+
+.content {
+    color: hsl(0, 0%, 50%);
+}
+
+footer {
+    display: flex;
+    gap: 15px;
+}
+
+.dp-img {
+    width: 50px;
+    height: 50px;
+}
+
+.name {
+    display: inline;
+    font-weight: 800;
+}
+
+
